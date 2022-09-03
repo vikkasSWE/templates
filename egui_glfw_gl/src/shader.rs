@@ -99,7 +99,7 @@ impl Shader {
         gl::UseProgram(self.id);
     }
 
-    pub unsafe fn set_f32(&self, name: &str, value: f32) {
+    pub unsafe fn _set_f32(&self, name: &str, value: f32) {
         let uniform = CString::new(name).unwrap();
         gl::Uniform1f(
             gl::GetUniformLocation(self.id, uniform.as_c_str().as_ptr()),

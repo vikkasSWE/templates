@@ -2,8 +2,10 @@
 
 members = [
     "imgui-rs_glfw_gl", 
-    "egui_glfw_gl"]
+    "egui_glfw_gl"
+]
 
 default-members = [
     "imgui-rs_glfw_gl", 
-    "egui_glfw_gl"]
+    "egui_glfw_gl"
+]
